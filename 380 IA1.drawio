@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="tuon_g_4rtUmrCNSt_cw">
-        <mxGraphModel dx="1280" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" background="#000000" math="0" shadow="0">
+        <mxGraphModel dx="904" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" background="#000000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -369,6 +369,24 @@
                 </mxCell>
                 <mxCell id="43" value="&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;use&amp;gt;&amp;gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="2090" y="360" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;&lt;interface&gt;&gt;&#10;ReliefServiceInterface&#10;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1720" y="1050" width="310" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="+ logInquirerQuery(): void &#10;+ searchForDisasterVictims(searchTerm: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=#000000;" vertex="1" parent="44">
+                    <mxGeometry y="50" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=block;endFill=0;endSize=12;html=1;labelBackgroundColor=#000000;labelBorderColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.553;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7xqwLpyVegUSBJ_16_x_-37" target="44">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1860" y="970" as="sourcePoint"/>
+                        <mxPoint x="2000" y="1030" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1870" y="920" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1880" y="1020" width="40" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
